@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Eloquent;
 use App\Models\Department;
 use Illuminate\Http\Request;
 

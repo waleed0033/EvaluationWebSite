@@ -19,6 +19,7 @@ Route::controller(LoginController::class)->group(function (){
     Route::post('/login','store');
 });
 
+Route::resource('users',UserController::class);
 Route::resource('departments',DepartmentController::class);
 
 
